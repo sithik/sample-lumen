@@ -1,5 +1,5 @@
 
-Steps to setup:
+# Steps to setup
 
 
 `git clone code-repo directory`
@@ -9,6 +9,15 @@ Steps to setup:
 `composer install`
 
 configure `.env` for DB
+
+    DB_CONNECTION=pgsql
+    DB_HOST=localhost
+    DB_PORT=5432
+    DB_DATABASE=sample
+    DB_USERNAME=postgres
+    DB_PASSWORD=postgres
+
+
 
 `composer dump-autoload`
 
